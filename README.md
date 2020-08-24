@@ -1,7 +1,7 @@
 # GoBarber 
 
 # Sobre
-Este projeto se conectará a uma API desenvolvida em Node [acesse aqui[().
+Este projeto se conectará a uma API desenvolvida em Node [acesse aqui](https://github.com/gibify/GoBarber-Back-End).
 
 ```shell 
 # clonando o projeto:
