@@ -1,7 +1,7 @@
 # GoBarber 
 
 # Sobre
-
+Este projeto se conectará a uma API desenvolvida em Node [acesse aqui[().
 
 ```shell 
 # clonando o projeto:
