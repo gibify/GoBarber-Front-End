@@ -10,8 +10,6 @@ interface ToastContainerProps {
 }
 
 const ToastContainer: React.FC<ToastContainerProps> = ({ messages }) => {
-
-
   return (
     <Container>
      {messages.map((message) => (

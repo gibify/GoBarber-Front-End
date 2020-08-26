@@ -37,10 +37,12 @@ const ToastProvider: React.FC = ({ children }) => {
     setMessages(state => state.filter(message => message.id !== id));
   }, []);
 
-  return <ToastContext.Provider value={{ addToast, removeToast }}>
-    {children}
-    <ToastContainer messages={messages}/>
-  </ToastContext.Provider>
+  return (
+    <ToastContext.Provider value={{ addToast, removeToast }}>
+      {children}
+      <ToastContainer messages={messages}/>
+    </ToastContext.Provider>
+  );
 }
 
 function useToast(): ToastContextData {
